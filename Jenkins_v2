@@ -2,7 +2,7 @@ pipeline {
   agent any
   stages {
     stage('Clone Git') {
-      staps {
+      steps {
         echo 'Clonig the git'
       }
     }
