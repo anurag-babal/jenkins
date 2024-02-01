@@ -1,0 +1,15 @@
+pipeline {
+  agent any
+  stages {
+    stage('Clone Git') {
+      staps {
+        echo 'Clonig the git'
+      }
+    }
+    stage('Build') {
+      steps {
+        echo 'Building'
+      }
+    }
+  }
+}
