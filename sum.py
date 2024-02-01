@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 
-def sum(first, second):
+def summation(first, second):
   return first + second
